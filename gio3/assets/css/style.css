@@ -1,0 +1,142 @@
+.cute {
+    color: rgb(163, 26, 81);
+    font-weight: 600;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #0b0a0a;
+    background-color: #d57ecb;
+}
+
+#siteHeader {
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    color: #1c1380;
+    text-align: center;
+    ;
+}
+
+#siteHeader h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+nav a {
+    color: #3d0042;
+    font-weight: bold;
+    line-height: 3;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main h2 {
+    font-size: 1.7rem;
+    color: hsl(244, 55%, 35%);
+    text-align: left;
+}
+
+main h3 {
+    font-size: 1.15rem;
+    color: hsl(17, 55%, 35%);
+    text-align: left;
+}
+
+#chiSono {
+    background-color: #ffffff;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+#chiSono p:first-of-type {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #5d3964;
+}
+
+.skillList li:nth-child(odd) {
+    background-color: #e9c6eb;
+}
+
+.skillList li:nth-child(even) {
+    background-color: #f4e8f2;
+}
+
+.skillList li:first-child {
+    font-weight: bold;
+}
+
+.project:nth-of-type(odd) {
+    background-color: #fbe3fd;
+}
+
+.project:nth-of-type(even) {
+    background-color: #f4e8f2;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(71, 0, 71);
+}
+
+
+label {
+    font-weight: bold;
+    color: hsl(293, 55%, 35%);
+}
+
+input,
+textarea {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 0.95rem;
+    width: 60%;
+    background-color: #eeeeee;
+}
+
+input:focus,
+textarea:focus{
+    background-color: #ffffff;
+    color: #111111;
+}
+
+.consenso {
+    width: auto;
+}
+
+button {
+    color: #ffffff;
+    background-color: hsl(293, 55%, 35%);
+    font-weight: bold;
+    width: 30%;
+}
+
+button:hover {
+    color: #eeeeee;
+    background-color: hsl(295, 100%, 12%);
+}
+
+#siteFooter {
+    background-color: #2e1a27;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+}
