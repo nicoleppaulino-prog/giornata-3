@@ -8,11 +8,12 @@ body {
     font-size: 17px;
     line-height: 1.7;
     color: #0b0a0a;
-    background-color: #d57ecb;
+    background-color: #f2a6f2;
+    cursor: pointer;
 }
 
 #siteHeader {
-    background-image: url();
+    background-image: 
     background-size: cover;
     background-position: center;
     color: #1c1380;
@@ -29,7 +30,7 @@ body {
 
 
 nav a {
-    color: #3d0042;
+    color: #001242;
     font-weight: bold;
     line-height: 3;
     text-decoration: none;
@@ -40,20 +41,27 @@ ul {
 }
 
 nav a:hover {
-    color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.2);
+    color: #dddfcc;
+    background-color: rgba(205, 240, 31, 0.2);
 }
 
 main h2 {
     font-size: 1.7rem;
-    color: hsl(244, 55%, 35%);
+    color: hsl(205, 55%, 35%);
     text-align: left;
 }
 
 main h3 {
     font-size: 1.15rem;
-    color: hsl(17, 55%, 35%);
+    color: hsl(124, 76%, 47%);
     text-align: left;
+    
+}
+
+section#competenze p {
+    color: #da0e0e;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 #chiSono {
@@ -65,11 +73,12 @@ main h3 {
 #chiSono p:first-of-type {
     font-size: 1.1rem;
     font-style: italic;
-    color: #5d3964;
+    color: #049d6d;
+    text-decoration:underline ;
 }
 
 .skillList li:nth-child(odd) {
-    background-color: #e9c6eb;
+    background-color: #9263f9;
 }
 
 .skillList li:nth-child(even) {
@@ -131,7 +140,7 @@ button {
 
 button:hover {
     color: #eeeeee;
-    background-color: hsl(295, 100%, 12%);
+    background-color: hsl(154, 83%, 47%);
 }
 
 #siteFooter {
